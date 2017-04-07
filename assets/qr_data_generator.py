@@ -4,7 +4,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import qrcode
 import random
-import csv
 import json
 # displaying
 # plt.imshow(img_object_or_array)
