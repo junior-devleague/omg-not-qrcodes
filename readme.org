@@ -2,11 +2,16 @@
 #+type: Activity
 
 * Summary
-  Activity for processing Python Dictionaries and building 2D arrays
+  Activity for processing Python Dictionaries and building 2D
+  arrays. Thinking of programming as 'transformation of data' is a
+  useful perspective that can aid in reasoning about your program. Also,
+  Visualizing data is a very useful tool and can aid in debugging.
 
 * Objective (wip)
   ARG, matey. Your task is to put together the QR code described by a
-  Python Dictionary!
+  Python Dictionary! Use the dictionary keys to transform the data
+  into a 2D array structure of ones and zeroes. Then test that your
+  array is correctly formed by testing the QR code! ... arrrgh
 
 * Prerequisites
   + Basic usage of Python REPL
@@ -20,6 +25,7 @@
 
 * Desired Outcomes
   + Build an intuition about data represented as nested lists and dictionaries
+  + Build an intuition about 'data transformation'
   + Basic understanding of processing dictionaries
   + Basic understanding of structuring 2D arrays (nested lists)
   + Increase confort level of utilizing the REPL for development
