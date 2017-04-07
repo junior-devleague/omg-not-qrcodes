@@ -76,5 +76,5 @@ Q ARRGh\~\~
 Fuctions that might be useful (wip)
 ===================================
 
--   str(some~Integer~)
--   int(some~StringthatrepresentsanInteger~)
+-   `str(an_Integer)`
+-   `int(a_String_that_represents_an_Integer)`

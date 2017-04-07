@@ -51,5 +51,5 @@
 *** Visualize the data! (wip)
 
 * Fuctions that might be useful (wip)
-  + str(an_Integer)
-  + int(a_String_that_represents_an_Integer)
+  + ~str(an_Integer)~
+  + ~int(a_String_that_represents_an_Integer)~
