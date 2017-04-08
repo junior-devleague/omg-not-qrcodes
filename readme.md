@@ -13,8 +13,8 @@ Thinking of programming as 'transformation of data' is a useful
 perspective that can aid in reasoning about your program. Also,
 Visualizing data is a very useful tool and can aid in debugging.
 
-Objective (wip)
-===============
+Objective
+=========
 
 ARG, matey. Your task is to put together the QR code described by a
 Python Dictionary! Use the dictionary keys to transform the data into a
@@ -28,12 +28,12 @@ Prerequisites
 -   Basic understanding of processing/building Python Lists (strings are
     lists too!)
 
-Requirements (wip)
-==================
+Requirements
+============
 
 -   shell terminal or Python IDE
 -   Tkinter module, the standard python interface for the TK GUI toolkit
--   import the provided QR code activity library `q_arrgh`
+-   import the provided QR code activity module `q_arrgh`
 -   Do you like puzzlely challenges? Yes, you do!
 
 Desired Outcomes
@@ -82,9 +82,19 @@ Preparing the activity
 Q ARRGh\~\~
 -----------
 
-### Exploring the dictionary (wip)
+### Exploring the dictionary
 
-### Visualize the data! (wip)
+-   You can assign the data to a variable with
+    `my_dict = q_arrgh.give_me_data()`
+-   If you wish, you can also look at the data directly from the file
+    `./assets/qrcode_data.json`
+
+### Visualize the data!
+
+-   Once you have built your 2D array, pass it to
+    `q_arrgh.show(your_2D_array)`. If the array is built correctly you
+    should see a scanable QR code. What sort of treasure could the QR
+    code possibly be holding?
 
 Additional Resources
 ====================
