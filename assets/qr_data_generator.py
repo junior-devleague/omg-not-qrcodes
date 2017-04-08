@@ -77,9 +77,9 @@ def get_qr_matrix(qr_payload, return_type='numpy'):
         return np_array
 
 
-def gen_qr_csv_file(payload='this data string is encoded into qrcode'):
+def gen_qr_csv_file(payload='as a string', filename='qrcode_data'):
     array = get_qr_matrix(payload)
     dictionary = build_dict(array)
 
-    with open('qrcode_data.json', 'w') as data_file:
+    with open('{}.json'.format(filename), 'w') as data_file:
         json.dump(dictionary, data_file, indent=4)
