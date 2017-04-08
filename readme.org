@@ -89,3 +89,6 @@
          for key in dict.keys():
              print(dict[key])
        #+END_SRC
+
+** Refrence
+   + [[https://docs.python.org/3.5/tutorial/datastructures.html?highlight=dictionary#dictionaries][python 3.5 docs]]

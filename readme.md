@@ -44,11 +44,11 @@ Desired Outcomes
 -   Build an intuition about 'data transformation'
 -   Basic understanding of processing dictionaries
 -   Basic understanding of structuring 2D arrays (a type of nested list)
--   Increase confort level of utilizing the REPL for development
+-   Increase comfort level of utilizing the REPL for development
 -   Preparation for Conway's Game of Life project
 
-Tasks (wip)
-===========
+Tasks
+=====
 
 Preparing the activity
 ----------------------
@@ -98,20 +98,31 @@ Genral functions that might be useful
 Expressions and functions for dictionaries that might be useful
 ---------------------------------------------------------------
 
--   `iter.keys()`
+-   `dict[somekey]`
+-   `dict.clear()`
+-   `dict.has_key(somekey)`
+-   `dict.values()`
+-   `dict.update(some_other_dictionary)`
+-   `dict.items()`
     -   Example:
 
         ``` {.python}
         dict = {"str": 808, 1234: False}
-        for key in iter.keys(dict):
+        for key, value in dict.items():
+            print(key, value)
+        ```
+
+-   `dict.keys()`
+    -   Example:
+
+        ``` {.python}
+        dict = {"str": 808, 1234: False}
+        for key in dict.keys():
             print(dict[key])
         ```
 
--   `iter.items()`
-    -   Example:
+Refrence
+--------
 
-        ``` {.python}
-        dict = {"str": 808, 1234: False}
-        for key, value in iter.items(dict):
-            print(key, value)
-        ```
+-   [python 3.5
+    docs](https://docs.python.org/3.5/tutorial/datastructures.html?highlight=dictionary#dictionaries)
