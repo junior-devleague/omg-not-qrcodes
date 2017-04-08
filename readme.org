@@ -20,6 +20,7 @@
 
 * Requirements (wip)
   + shell terminal or Python IDE
+  + Tkinter module, the standard python interface for the TK GUI toolkit
   + import the provided QR code activity library ~q_arrgh~
   + Do you like puzzlely challenges? Yes, you do!
 
@@ -36,26 +37,50 @@
 ** Preparing the activity
 
 *** From the terminal
-    1. Clone the activity repository, change to project directory
+    1. Ensure Tkinter is installed
+       #+BEGIN_SRC bash
+       sudo apt install python3-tk
+       #+END_SRC
+
+    2. Clone the activity repository, change to project directory
        #+BEGIN_SRC bash
          git clone https://github.com/junior-devleague/omg-not-qrcodes.git
          cd omg-not-qrcodes
        #+END_SRC
 
-    2. Create a virtual enviornment and install dependencies
+    3. Create a virtual enviornment and install dependencies
        #+BEGIN_SRC bash
          virtualenv -p python3 env/
-         env/bin/pip install -r requirements.txt
+         env/bin/pip install matplotlib
        #+END_SRC
 
-    3. start your REPL and import activity lib
+    4. start your REPL and import activity lib
        + From terminal, enter ~env/bin/python~
        + In your newly started REPL, enter ~import q_arrgh~
 
 ** Q ARRGh~~
 *** Exploring the dictionary (wip)
+    
 *** Visualize the data! (wip)
 
-* Fuctions that might be useful (wip)
-  + ~str(an_Integer)~
-  + ~int(a_String_that_represents_an_Integer)~
+* Additional Resources
+
+** Genral functions that might be useful
+    + ~str(an_Integer)~
+    + ~int(a_String_that_represents_an_Integer)~
+
+** Expressions and functions for dictionaries that might be useful
+   + ~iter.keys()~
+     - Example:
+       #+BEGIN_SRC python
+         dict = {"str": 808, 1234: False}
+         for key in iter.keys(dict):
+             print(dict[key])
+       #+END_SRC
+   + ~iter.items()~
+     - Example:
+       #+BEGIN_SRC python
+         dict = {"str": 808, 1234: False}
+         for key, value in iter.items(dict):
+             print(key, value)
+       #+END_SRC
