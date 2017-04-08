@@ -28,7 +28,7 @@
   + Build an intuition about data represented as nested lists and dictionaries
   + Build an intuition about 'data transformation'
   + Basic understanding of processing dictionaries
-  + Basic understanding of structuring 2D arrays (nested lists)
+  + Basic understanding of structuring 2D arrays (a type of nested list)
   + Increase confort level of utilizing the REPL for development
   + Preparation for Conway's Game of Life project
 
