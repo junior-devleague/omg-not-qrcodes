@@ -64,8 +64,8 @@ Preparing the activity
 2.  Clone the activity repository, change to project directory
 
     ``` {.bash}
-    git clone https://github.com/junior-devleague/omg-not-qrcodes.git
-    cd omg-not-qrcodes
+    git clone https://github.com/junior-devleague/omg-not-qrcodes-python.git
+    cd omg-not-qrcodes-python
     ```
 
 3.  Create a virtual enviornment and install dependencies
