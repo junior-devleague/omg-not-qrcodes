@@ -72,7 +72,7 @@ Preparing the activity
 
     ``` {.bash}
     virtualenv -p python3 env/
-    env/bin/pip install matplotlib
+    env/bin/pip install -r requirements.txt
     ```
 
 4.  start your REPL and import activity lib
