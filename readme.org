@@ -56,7 +56,7 @@
 
     4. start your REPL and import activity lib
        + From terminal, enter ~env/bin/python~
-       + In your newly started REPL, enter ~import q_arrgh~
+       + In your newly started REPL, enter ~from assets import q_arrgh~
 
 ** Q ARRGh~~
 *** Exploring the dictionary
